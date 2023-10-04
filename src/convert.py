@@ -99,7 +99,7 @@ def create_ann(image_path):
 
 
 object_classes_dict = {
-    "lighter": sly.ObjClass("Non-metal Lighter", sly.Rectangle, color=[255, 0, 0])
+    "lighter": sly.ObjClass("non-metal lighter", sly.Rectangle, color=[255, 0, 0])
 }
 
 batch_size = 50

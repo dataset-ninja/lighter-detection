@@ -14,14 +14,14 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Lighter detection under x-ray"
-PROJECT_NAME_FULL: str = "Non-metal lighter target detection under X-ray"
+PROJECT_NAME_FULL: str = "Non-Metal Lighter Target Detection Under X-Ray"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.GNU_GPL_v2()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Security(), Domain.Surveillance()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Security(is_used=False)]
 CATEGORY: Category = Category.Surveillance()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]

@@ -1,1 +1,1 @@
-Non-metal lighter target detection under X-ray is under [GNU GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) license.
+Non-Metal Lighter Target Detection Under X-Ray is under [GNU GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) license.
