@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Lighter detection under x-ray"
+PROJECT_NAME: str = "Non-Metal Lighter Target Detection Under X-Ray"
 PROJECT_NAME_FULL: str = "Non-Metal Lighter Target Detection Under X-Ray"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
@@ -22,7 +22,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.GNU_GPL_v2()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Security(is_used=False)]
-CATEGORY: Category = Category.Surveillance()
+CATEGORY: Category = Category.Security(extra=Category.Surveillance())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -58,6 +58,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Voler"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://www.kaggle.com/voler2333"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
@@ -111,6 +112,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
