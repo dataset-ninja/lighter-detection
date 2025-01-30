@@ -1,6 +1,6 @@
 Dataset **Non-Metal Lighter Target Detection Under X-Ray** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/ezivpi64k43bu66uevzg6/non-metal-lighter-target-detection-under-x-ray-DatasetNinja.tar?rlkey=j7q0vo4lmlim4rnxpna6vmqab&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI0NTFfTm9uLU1ldGFsIExpZ2h0ZXIgVGFyZ2V0IERldGVjdGlvbiBVbmRlciBYLVJheS9ub24tbWV0YWwtbGlnaHRlci10YXJnZXQtZGV0ZWN0aW9uLXVuZGVyLXgtcmF5LURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIkVqanlDUi81SzQzZnU5KzFyQVVuYTgra2hpcGxIZ3c5bExkdjZ6MVdWSUE9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
